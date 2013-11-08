@@ -364,4 +364,5 @@ function getData() {
 		{"name":"Woodside Park","lat":"51.6179618835","lon":"-0.1855123",},
 		{"name":"Woolwich Arsenal","lat":"51.4899330139","lon":"0.0690722",},
 	],};
+	return data;
 }

@@ -50,47 +50,18 @@ function markPoint(loc) {
 	counter++;
 };
 
-
-function togPts () {
-	var check = ptsArr[0].getVisible();
-	if (check == false) { showPts(); } else { clearPts(); }
-};
-		
-		
-function clearPts() {
-	if (ptsArr) { for (i in ptsArr) {ptsArr[i].setVisible(false); } }
-};
-
-
-function showPts() {
-	if (ptsArr) { for (i in ptsArr) {ptsArr[i].setVisible(true); } }
-};
-
-
-function delPts() {
-	if (ptsArr) { for (i in ptsArr) { ptsArr[i].setVisible(false); }}
-	ptsArr.length = 0;
-	counter = 0;
-};
-
-
-function gotoAd() {
-	var address = document.getElementById('addr').value;
-	geocoder.geocode( { 'address': address}, function(results, status) {
-		if (status == google.maps.GeocoderStatus.OK) {
-			map.fitBounds(results[0].geometry.viewport);
- 		}
-		else {
-			if (status = "ZERO_RESULTS") {
-				alert("Could not find the place "+address);
-			}
-			else {
-				alert("There seems to be some problem please contact tech support");
-			}
-		}
-	});
-};
-
-function prPts() {
-for(var i=0;i<ptsArr.length;i++){console.log(ptsArr[i].title+" : "+ptsArr[i].position.mb+" , "+ptsArr[i].position.nb);}
+function markStations() {
+	var data = getData();
+	var image = new google.maps.MarkerImage('mr1.png', new google.maps.Size(10,10), new google.maps.Point(0,0), new google.maps.Point(5,5));
+	for (i in data.stations) {
+		var loc = new google.maps.LatLng(data.stations[i].lat,data.stations[i].lon);
+		marker = new google.maps.Marker({
+			position: loc,
+			title:data.stations[i].name,
+			map: map,
+			draggable: false,
+			icon: image
+		});
+		ptsArr.push(marker);
+	}
 }
