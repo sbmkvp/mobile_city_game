@@ -1,11 +1,13 @@
+//Telling google maps to use the new style of maps
 google.maps.visualRefresh = true;
-var map;
-var ptsArr = [];
-var counter = 0;
-var geocoder;
 
+// Creating Global Variables for storing the map and station points.
+var map;
+var stations = [];
+var infoWindow = new google.maps.InfoWindow();
+
+//This function creates the map object with certain specifications and applies it to the map canvas in the html file.
 function drawMap () {
-	geocoder = new google.maps.Geocoder();
 	var styles = getStyle();
 	var styledMap = new google.maps.StyledMapType(styles,{name: "Dark"});
 	var options = {
@@ -21,38 +23,24 @@ function drawMap () {
 			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
 			position:google.maps.ControlPosition.TOP_RIGHT
 		},
-		zoomControl: true,
+		zoomControl: false,
 		zoomControlOptions: {
 			style: google.maps.ZoomControlStyle.SMALL,
 			position: google.maps.ControlPosition.TOP_LEFT
 		},
-		disableDoubleClickZoom: false
+		disableDoubleClickZoom: false,
 	};
 	map = new google.maps.Map(document.getElementById('map'), options);
 
 	map.mapTypes.set('map_style', styledMap);
 	map.setMapTypeId('map_style');
-
-	google.maps.event.addListener(map,'click',function (event) {markPoint(event.latLng)});
 };
 
-
-function markPoint(loc) {
-	var image = new google.maps.MarkerImage('mr1.png', new google.maps.Size(10,10), new google.maps.Point(0,0), new google.maps.Point(5,5));
-	marker = new google.maps.Marker({
-		position: loc,
-		title:"Point_"+counter,
-		map: map,
-		draggable: false,
-		icon: image
-	});
-	ptsArr.push(marker);
-	counter++;
-};
-
+//This function gets the data from the data.js file and creates a marker for each one of them.
 function markStations() {
 	var data = getData();
 	var image = new google.maps.MarkerImage('mr1.png', new google.maps.Size(10,10), new google.maps.Point(0,0), new google.maps.Point(5,5));
+	var bounds = new google.maps.LatLngBounds();
 	for (i in data.stations) {
 		var loc = new google.maps.LatLng(data.stations[i].lat,data.stations[i].lon);
 		marker = new google.maps.Marker({
@@ -60,8 +48,15 @@ function markStations() {
 			title:data.stations[i].name,
 			map: map,
 			draggable: false,
-			icon: image
+			icon: image,
 		});
-		ptsArr.push(marker);
+		
+		google.maps.event.addListener(marker,'click', function(){
+			infoWindow.setContent(this.title);
+			infoWindow.open(map, this);
+		});
+		stations.push(marker);
+		bounds.extend(loc);
 	}
+	map.fitBounds(bounds);
 }

@@ -1,3 +1,4 @@
+//This function returns a set of style information which determines how the map looks.
 function getStyle() {
 var a =
 [	
@@ -33,9 +34,8 @@ var a =
 	{ "featureType": "road.arterial",			"elementType":"labels.text",			"stylers":[{"visibility":"off"}													]},
 	{ "featureType": "road.local",				"elementType":"labels.text",			"stylers":[{"visibility":"off"}													]},
 	{ "featureType": "transit",					"elementType":"all",					"stylers":[{"visibility":"off"}													]},
-	{ "featureType": "transit.line",			"elementType":"geometry",				"stylers":[{"visibility":"on"}		,{"color":"#888888"}	,{"weight":1.0}		]},
+	{ "featureType": "transit.line",			"elementType":"geometry",				"stylers":[{"visibility":"on"}		,{"color":"#888888"}	,{"weight":0.2}		]},
 	{ "featureType": "water",					"elementType":"labels",					"stylers":[{"visibility":"off"}]},
-{}
 ]
 ;
 return a;
