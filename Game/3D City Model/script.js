@@ -2,7 +2,7 @@ var container;
 
 var camera, scene, renderer;
 
-var cube, plane;
+var pegman, plane;
 
 var targetRotation = 0;
 var targetRotationOnMouseDown = 0;
@@ -34,22 +34,21 @@ function init() {
 
 	var loader = new THREE.ColladaLoader();
 		loader.options.convertUpAxis = true;
-		loader.load( './build.dae', function ( collada ) {
-
-			dae = collada.scene;
-			skin = collada.skins[ 0 ];
-
-			dae.scale.x = dae.scale.y = dae.scale.z = 0.002;
-			dae.updateMatrix();
-
-			init();
-			animate();
-
+		loader.load( './pegman.dae', function ( collada ) {
+			pegman = collada.scene;
+			console.log(collada);
+			pegman_geometry = collada.scene.children[0].children[0].geometry;
+			pegman_material = collada.scene.children[0].children[0].material;
+			pegman.scale.set(.10, .10, .10);
+			pegman.position.y = 0;
+			pegman.updateMatrix();
+			scene.add(pegman);
 		} );
+
 
 	// Plane
 
-	var geometry = new THREE.PlaneGeometry( 200, 200 );
+	var geometry = new THREE.PlaneGeometry(200, 200 );
 	geometry.applyMatrix( new THREE.Matrix4().makeRotationX( - Math.PI / 2 ) );
 
 	var material = new THREE.MeshBasicMaterial( { color: 0xe0e0e0, overdraw: 0.5 } );
@@ -152,16 +151,11 @@ function onDocumentTouchMove( event ) {
 //
 
 function animate() {
-
 	requestAnimationFrame( animate );
-
 	render();
-
 }
 
 function render() {
-
-	plane.rotation.y += ( targetRotation - plane.rotation.y ) * 0.05;
+	pegman.rotation.y = plane.rotation.y += ( targetRotation - plane.rotation.y ) * 0.05;
 	renderer.render( scene, camera );
-
 }
