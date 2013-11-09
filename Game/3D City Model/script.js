@@ -30,21 +30,22 @@ function init() {
 	camera.rotation.x = -.6;
 	scene = new THREE.Scene();
 
-	// Cube
+	//Add the 3D Model.
 
-	var geometry = new THREE.CubeGeometry( 200, 200, 200 );
+	var loader = new THREE.ColladaLoader();
+		loader.options.convertUpAxis = true;
+		loader.load( './build.dae', function ( collada ) {
 
-	for ( var i = 0; i < geometry.faces.length; i += 2 ) {
-		var hex = Math.random() * 0xffffff;
-		geometry.faces[ i ].color.setHex( hex );
-		geometry.faces[ i + 1 ].color.setHex( hex );
-	}
+			dae = collada.scene;
+			skin = collada.skins[ 0 ];
 
-	var material = new THREE.MeshBasicMaterial( { vertexColors: THREE.FaceColors, overdraw: 0.5 } );
+			dae.scale.x = dae.scale.y = dae.scale.z = 0.002;
+			dae.updateMatrix();
 
-	cube = new THREE.Mesh( geometry, material );
-	cube.position.y = 150;
-	scene.add( cube );
+			init();
+			animate();
+
+		} );
 
 	// Plane
 
@@ -160,7 +161,7 @@ function animate() {
 
 function render() {
 
-	plane.rotation.y = cube.rotation.y += ( targetRotation - cube.rotation.y ) * 0.05;
+	plane.rotation.y += ( targetRotation - plane.rotation.y ) * 0.05;
 	renderer.render( scene, camera );
 
 }
