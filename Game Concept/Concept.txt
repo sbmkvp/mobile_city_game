@@ -1,0 +1,49 @@
+Game Concept #1 Student @ UCL
+
+Objectives:
+
+Diverting agents towards locations
+
+The number of agents reaching the locations will generate a scoring system based on where they end up i.e.
+
+
+Pubs - Happiness (affects the speed agents move at)
+Libraries & lecture buildings - Intelligence (affects their training level to score)
+
+
+Places of Work:
+
+Hospital & research buildings - high skill
+Offices - mid skill
+Restaurants - low skill
+
+
+Based on top of the UCL campus area, the agents will spawn out of set point(s) main campus building or transport links
+
+
+To affect the agents, the player will be able to place boosts, diversions and waypoints to move the agents around:
+
+bus stops
+road blocks
+junk food
+
+
+
+Game Concept #2 Random Pedestrian sim game
+
+Objectives:
+
+Take control of a pedestrian to move around and explore an area to:
+
+- add more information to OSM
+- collect points/boosts in the area
+- finding set buildings via exploring
+
+
+
+Game Concept #3 Pedestrian traffic management
+
+Objectives:
+
+Directing flows of agents to locations
+
