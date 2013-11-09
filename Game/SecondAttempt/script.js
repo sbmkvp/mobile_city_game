@@ -26,8 +26,8 @@ function init()
 	var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
 	var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
 	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
-
-
+	camera.position.set( 0, 1000, 1000 );
+	scene.add(camera);
 
 	// RENDERER
 	if ( Detector.webgl )
@@ -91,9 +91,7 @@ function addModelToScene( geometry, materials )
 	var material = new THREE.MeshFaceMaterial( materials );
 	android = new THREE.Mesh( geometry, material );
 	android.scale.set(10,10,10);
-	scene.add( android );
-	android.add(camera);
-	camera.position.set( 0, 0, 100 );
+	scene.add( android );	
 }
 
 function animate() 
@@ -108,27 +106,22 @@ function update()
 	if ( keyboard.pressed("w") ) 
 	{ 
 		android.translateZ(1);
-		camera.translateZ(-1);
 	}	
 	if ( keyboard.pressed("s") ) 
 	{ 
 		android.translateZ(-1);
-		camera.translateZ(1);
 	}	
 	if ( keyboard.pressed("a") ) 
 	{ 
 		android.rotateOnAxis(new THREE.Vector3(0, 1, 0), Math.PI/180);
-		camera.rotateOnAxis(new THREE.Vector3(0, 1, 0), Math.PI/180);
 	}	
 	if ( keyboard.pressed("d") ) 
 	{ 
 		android.rotateOnAxis(new THREE.Vector3(0, 1, 0), -Math.PI/180);
-		camera.rotateOnAxis(new THREE.Vector3(0, 1, 0), -Math.PI/180);
 	}
 	
-	//controls.update();
+	controls.update();
 	stats.update();
-	camera.lookAt(android.position);
 }
 
 function render() 
