@@ -1,0 +1,676 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"bak",
+				"background-origin"
+			],
+			[
+				"cent",
+				"center"
+			],
+			[
+				"box",
+				"box1"
+			],
+			[
+				"map",
+				"map"
+			],
+			[
+				"zoom",
+				"zoom"
+			],
+			[
+				"array_s",
+				"array_shift"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"oT",
+				"oTable"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"dataTa",
+				"DataTables"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"info",
+				"infoWindow"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"year",
+				"yearfilter"
+			],
+			[
+				"sets",
+				"setSlider"
+			],
+			[
+				"arr",
+				"arrYr"
+			],
+			[
+				"ma",
+				"max"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"draw",
+				"drawmap"
+			],
+			[
+				"zoo",
+				"zoom"
+			],
+			[
+				"dra",
+				"drawLvmfap"
+			],
+			[
+				"key",
+				"keyarr"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"name",
+				"namechk"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"lat",
+				"LatLng"
+			],
+			[
+				"la",
+				"LatLng"
+			],
+			[
+				"set",
+				"setZoom"
+			],
+			[
+				"sl",
+				"slpv"
+			],
+			[
+				"sz",
+				"szom"
+			],
+			[
+				"gl",
+				"glpv"
+			],
+			[
+				"link",
+				"link_con"
+			],
+			[
+				"type",
+				"type_stat"
+			],
+			[
+				"typ",
+				"type_use"
+			],
+			[
+				"ty",
+				"type_con"
+			],
+			[
+				"comp",
+				"comp_date"
+			],
+			[
+				"hd",
+				"hd_date"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marker",
+				"markerCluster"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"l",
+				"l"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fresh start/index.html",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fresh start/css/style.css",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fresh start/js/script.js",
+			"settings":
+			{
+				"buffer_size": 4092,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pak",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/js/threex.proceduralcity.js",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/js/script.js",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/css/style.css",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/index.html",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/js/three.min.js",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/fresh start/js/script",
+		"/C/Users/BalaMurugan/Software/mrdoob-three.js-f396baf/build/three.min.js",
+		"/C/Users/BalaMurugan/Desktop/wolfensteiny.htm",
+		"/C/Users/BalaMurugan/Desktop/Desktop/style.css",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/Game/SecondAttempt/script.js",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/Game/SecondAttempt/Model.html",
+		"/C/Users/BalaMurugan/Desktop/Desktop/KTP Presentation/Data and Analysis/Matrices/Function.R",
+		"/C/Users/BalaMurugan/Desktop/style.css",
+		"/C/Users/BalaMurugan/AppData/Local/Temp/Temp1_bootstrap-3.0.2-dist.zip/dist/css/bootstrap.css",
+		"/C/Users/BalaMurugan/Desktop/index.html",
+		"/C/Users/BalaMurugan/Desktop/Desktop/eh-14.nov/Assets/scripts/chooseImgCamScript.js",
+		"/C/Users/BalaMurugan/Desktop/Desktop/eh-14.nov/Assets/scripts/chooseRafImg.js",
+		"/C/xampp/htdocs/HD-Maps/db-manager/index.html",
+		"/C/xampp/htdocs/HD-Maps/map-editor/map-mm.js",
+		"/C/xampp/htdocs/HD-Maps/map-editor/index.html",
+		"/C/xampp/htdocs/HD-Maps/lib/php/map.php",
+		"/C/xampp/htdocs/HD-Maps/map-editor/styles-mm.css",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getviews.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getprojects.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getlvmfap.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getlvmfpv.php",
+		"/C/xampp/htdocs/HD-Maps/map-viewer/map-mv.js",
+		"/C/xampp/htdocs/HD-Maps/lib/php/delmap.php",
+		"/C/xampp/htdocs/HD-Maps/map-library/styles-lb.css",
+		"/C/xampp/htdocs/HD-Maps/map-library/map-lb.js",
+		"/C/xampp/htdocs/HD-Maps/map-library/index.html",
+		"/C/xampp/htdocs/HD-Maps/lib/php/dupmap.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/dupmaps.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/opmaps.php",
+		"/C/xampp/htdocs/HD-Maps/map-viewer/index.html",
+		"/C/xampp/htdocs/HD-Maps/lib/css/bootstrap.min.css",
+		"/C/Users/BalaMurugan/Dissertation/06 # Final Analysis & WriteUp/08  # Dual Algorithm/function.R",
+		"/C/Users/BalaMurugan/Desktop/vectorosm/0/0/0.js",
+		"/C/Users/BalaMurugan/Downloads/result.json",
+		"/C/xampp/htdocs/HD-Maps/map-viewer/styles-mv.css",
+		"/C/xampp/htdocs/HD-Maps/lib/php/user-pass.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getmaps.php",
+		"/C/xampp/htdocs/HD-Maps/lib/js/jsontotable.js",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/dbman/js/functions.js",
+		"/C/Users/BalaMurugan/Desktop/example/index.html",
+		"/C/Users/BalaMurugan/Desktop/example/DT_bootstrap.js",
+		"/C/Users/BalaMurugan/Desktop/example/DT_bootstrap.css",
+		"/C/Users/BalaMurugan/Documents/GitHub/mobilecity/Game/First Map/map.js",
+		"/C/Users/BalaMurugan/Desktop/DataTables-1.9.4/media/js/jquery.dataTables.js",
+		"/C/Users/BalaMurugan/AppData/Local/Temp/Temp1_DataTables-1.9.4 (1).zip/DataTables-1.9.4/package.json",
+		"/C/xampp/htdocs/HD-Maps/lib/css/bootstrap-switch.css",
+		"/C/Users/BalaMurugan/Google Drive/PhD - GiCenter - Bala/Reading/Literature Network/sigma.min.js",
+		"/C/xampp/htdocs/HD-Maps/map-manager/styles-mm.css",
+		"/C/xampp/htdocs/HD-Maps/map-manager/map-mm.js",
+		"/C/xampp/htdocs/HD-Maps/map-manager/index.html",
+		"/C/xampp/htdocs/HD-Maps/lib/php/dblogin.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getData.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/map-key.php",
+		"/C/xampp/htdocs/HD-Maps/lib/js/hdstyle.js",
+		"/C/xampp/htdocs/HD-Maps/map-viewer/map.js",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/mapman/style.css",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/mapman/map.js",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/mapman/Index.html",
+		"/C/xampp/htdocs/HD-Maps/lib/css/jquery-ui-1.10.3.custom.css",
+		"/C/xampp/htdocs/HD-Maps/lib/js/jquery-ui-1.10.3.custom.js",
+		"/C/xampp/htdocs/HD-Maps/styles-hm.css",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/maps/map.js",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/maps/Index.php",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/dbops/getData.php",
+		"/C/xampp/htdocs/HD-Maps/lib/php/getdata.php",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/viz/maps/map-style.js",
+		"/D/Backup - 13.07.03/Desktop/Desktop/build.json",
+		"/C/xampp/htdocs/HD-Maps/index.html",
+		"/C/xampp/htdocs/HD-Maps/map.js",
+		"/C/Users/BalaMurugan/Dissertation/zbin/05 # Visualisation/data.js",
+		"/C/Users/BalaMurugan/Downloads/ghost/package.json",
+		"/C/Users/BalaMurugan/AppData/Local/Temp/Temp1_ghost-0.3.3.zip/package.json",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/dbman/views.html",
+		"/C/Users/BalaMurugan/Hayes Davidson/03 # Work Until Final/hd-old/dbman/projects.html",
+		"/C/Program Files (x86)/Git/doc/git/html/git-init.html",
+		"/C/Users/BalaMurugan/Downloads/map.js",
+		"/C/Program Files (x86)/Git/doc/git/html/git.html",
+		"/C/Users/BalaMurugan/Desktop/Desktop/Backup 2.json",
+		"/C/Users/BalaMurugan/Downloads/index.php",
+		"/C/Users/BalaMurugan/Downloads/index (1).php",
+		"/C/Users/BalaMurugan/Desktop/Desktop/server.js",
+		"/C/Users/BalaMurugan/Desktop/Desktop/server (2).js",
+		"/C/Users/BalaMurugan/Desktop/Desktop/import.php",
+		"/C/Users/BalaMurugan/Desktop/Desktop/index.html",
+		"/C/xampp/htdocs/hdmaps/index.html",
+		"/C/Users/BalaMurugan/Documents/Misc/data.json",
+		"/C/xampp/htdocs/hdmaps/lib/lib-css/bootstrap.min.css",
+		"/C/xampp/htdocs/hdmaps/lib-css/bootstrap.min.css",
+		"/C/xampp/htdocs/hdmaps/lib-js/bootstrap.min.js",
+		"/C/Users/BalaMurugan/Desktop/data.js",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/server.js",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/package.json",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/lib/chat_server.js",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/public/javascripts/chat.js",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/public/javascripts/chat_ui.js",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/public/index.html",
+		"/C/Users/BalaMurugan/Desktop/chatrooms/public/stylesheets/style.css",
+		"/C/Users/BalaMurugan/Desktop/fromgit/node_modules/socket.io/node_modules/socket.io-client/package.json",
+		"/C/Users/BalaMurugan/Desktop/fromgit/node_modules/socket.io/package.json",
+		"/C/Users/BalaMurugan/Desktop/fromgit/server.js",
+		"/C/Users/BalaMurugan/Desktop/server.js",
+		"/C/xampp/htdocs/twitter/index.php",
+		"/C/Users/BalaMurugan/Desktop/three/my first web 3d/js/3d.js",
+		"/C/Users/BalaMurugan/Desktop/three/my first web 3d/index.html",
+		"/C/Users/BalaMurugan/Desktop/three/three.js/examples/canvas_geometry_cube.html",
+		"/C/Users/BalaMurugan/Desktop/three/three.js/examples/models/utf8/ben_dds.js",
+		"/C/Users/BalaMurugan/Desktop/three/three.js/editor/index.html",
+		"/C/Users/BalaMurugan/Desktop/three/three.js/examples/canvas_ascii_effect.html",
+		"/C/Users/BalaMurugan/Desktop/three/three.js/test/perf.html",
+		"/C/xampp/htdocs/hayesdavidson/dbman/js/functions.js",
+		"/C/xampp/htdocs/spa/del.php",
+		"/C/xampp/htdocs/hayesdavidson/dbops/getData.php",
+		"/C/xampp/htdocs/hayesdavidson/dbops/postViews.php",
+		"/C/xampp/htdocs/hayesdavidson/dbops/getMap.php",
+		"/C/xampp/htdocs/spa/map.js",
+		"/C/xampp/htdocs/spa/post.php",
+		"/C/xampp/htdocs/spa/get.php",
+		"/C/Users/BalaMurugan/Downloads/map (1).js",
+		"/C/xampp/htdocs/hayesdavidson/dbops/saveMap.php",
+		"/C/xampp/htdocs/hayesdavidson/viz/maps/map.js",
+		"/C/xampp/htdocs/hayesdavidson/viz/maps/style.css",
+		"/C/xampp/htdocs/hayesdavidson/viz/maps/Index.php",
+		"/C/xampp/htdocs/hayesdavidson/viz/mapman/map.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10000",
+			"500",
+			"console.log",
+			"animate",
+			"windowhalfx",
+			"stats",
+			">\n",
+			"e",
+			"c",
+			"bounds",
+			");\n",
+			"setZoom",
+			"}')\";\n",
+			"<'col-xs-4'p>",
+			"link",
+			"<thead>\n				<tr>\n					<th>Rendering engine</th>\n					<th>Browser</th>\n					<th>Platform(s)</th>\n					<th>Engine version</th>\n					<th>CSS grade</th>\n				</tr>\n			</thead>\n			<tbody>\n				<tr class=\"odd gradeX\">\n					<td>Trident</td>\n					<td>Internet\n						 Explorer 4.0</td>\n					<td>Win 95+</td>\n					<td class=\"center\"> 4</td>\n					<td class=\"center\">X</td>\n				</tr>\n				<tr class=\"even gradeC\">\n					<td>Trident</td>\n					<td>Internet\n						 Explorer 5.0</td>\n					<td>Win 95+</td>\n					<td class=\"center\">5</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"odd gradeA\">\n					<td>Trident</td>\n					<td>Internet\n						 Explorer 5.5</td>\n					<td>Win 95+</td>\n					<td class=\"center\">5.5</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"even gradeA\">\n					<td>Trident</td>\n					<td>Internet\n						 Explorer 6</td>\n					<td>Win 98+</td>\n					<td class=\"center\">6</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"odd gradeA\">\n					<td>Trident</td>\n					<td>Internet Explorer 7</td>\n					<td>Win XP SP2+</td>\n					<td class=\"center\">7</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"even gradeA\">\n					<td>Trident</td>\n					<td>AOL browser (AOL desktop)</td>\n					<td>Win XP</td>\n					<td class=\"center\">6</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Firefox 1.0</td>\n					<td>Win 98+ / OSX.2+</td>\n					<td class=\"center\">1.7</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Firefox 1.5</td>\n					<td>Win 98+ / OSX.2+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Firefox 2.0</td>\n					<td>Win 98+ / OSX.2+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Firefox 3.0</td>\n					<td>Win 2k+ / OSX.3+</td>\n					<td class=\"center\">1.9</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Camino 1.0</td>\n					<td>OSX.2+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Camino 1.5</td>\n					<td>OSX.3+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Netscape 7.2</td>\n					<td>Win 95+ / Mac OS 8.6-9.2</td>\n					<td class=\"center\">1.7</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Netscape Browser 8</td>\n					<td>Win 98SE+</td>\n					<td class=\"center\">1.7</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Netscape Navigator 9</td>\n					<td>Win 98+ / OSX.2+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.0</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.1</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.1</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.2</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.2</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.3</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.3</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.4</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.4</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.5</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.5</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.6</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">1.6</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.7</td>\n					<td>Win 98+ / OSX.1+</td>\n					<td class=\"center\">1.7</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Mozilla 1.8</td>\n					<td>Win 98+ / OSX.1+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Seamonkey 1.1</td>\n					<td>Win 98+ / OSX.2+</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Gecko</td>\n					<td>Epiphany 2.20</td>\n					<td>Gnome</td>\n					<td class=\"center\">1.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>Safari 1.2</td>\n					<td>OSX.3</td>\n					<td class=\"center\">125.5</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>Safari 1.3</td>\n					<td>OSX.3</td>\n					<td class=\"center\">312.8</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>Safari 2.0</td>\n					<td>OSX.4+</td>\n					<td class=\"center\">419.3</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>Safari 3.0</td>\n					<td>OSX.4+</td>\n					<td class=\"center\">522.1</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>OmniWeb 5.5</td>\n					<td>OSX.4+</td>\n					<td class=\"center\">420</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>iPod Touch / iPhone</td>\n					<td>iPod</td>\n					<td class=\"center\">420.1</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Webkit</td>\n					<td>S60</td>\n					<td>S60</td>\n					<td class=\"center\">413</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 7.0</td>\n					<td>Win 95+ / OSX.1+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 7.5</td>\n					<td>Win 95+ / OSX.2+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 8.0</td>\n					<td>Win 95+ / OSX.2+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 8.5</td>\n					<td>Win 95+ / OSX.2+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 9.0</td>\n					<td>Win 95+ / OSX.3+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 9.2</td>\n					<td>Win 88+ / OSX.3+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera 9.5</td>\n					<td>Win 88+ / OSX.3+</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Opera for Wii</td>\n					<td>Wii</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Nokia N800</td>\n					<td>N800</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Presto</td>\n					<td>Nintendo DS browser</td>\n					<td>Nintendo DS</td>\n					<td class=\"center\">8.5</td>\n					<td class=\"center\">C/A<sup>1</sup></td>\n				</tr>\n				<tr class=\"gradeC\">\n					<td>KHTML</td>\n					<td>Konqureror 3.1</td>\n					<td>KDE 3.1</td>\n					<td class=\"center\">3.1</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>KHTML</td>\n					<td>Konqureror 3.3</td>\n					<td>KDE 3.3</td>\n					<td class=\"center\">3.3</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>KHTML</td>\n					<td>Konqureror 3.5</td>\n					<td>KDE 3.5</td>\n					<td class=\"center\">3.5</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeX\">\n					<td>Tasman</td>\n					<td>Internet Explorer 4.5</td>\n					<td>Mac OS 8-9</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">X</td>\n				</tr>\n				<tr class=\"gradeC\">\n					<td>Tasman</td>\n					<td>Internet Explorer 5.1</td>\n					<td>Mac OS 7.6-9</td>\n					<td class=\"center\">1</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeC\">\n					<td>Tasman</td>\n					<td>Internet Explorer 5.2</td>\n					<td>Mac OS 8-X</td>\n					<td class=\"center\">1</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Misc</td>\n					<td>NetFront 3.1</td>\n					<td>Embedded devices</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeA\">\n					<td>Misc</td>\n					<td>NetFront 3.4</td>\n					<td>Embedded devices</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">A</td>\n				</tr>\n				<tr class=\"gradeX\">\n					<td>Misc</td>\n					<td>Dillo 0.8</td>\n					<td>Embedded devices</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">X</td>\n				</tr>\n				<tr class=\"gradeX\">\n					<td>Misc</td>\n					<td>Links</td>\n					<td>Text only</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">X</td>\n				</tr>\n				<tr class=\"gradeX\">\n					<td>Misc</td>\n					<td>Lynx</td>\n					<td>Text only</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">X</td>\n				</tr>\n				<tr class=\"gradeC\">\n					<td>Misc</td>\n					<td>IE Mobile</td>\n					<td>Windows Mobile 6</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeC\">\n					<td>Misc</td>\n					<td>PSP browser</td>\n					<td>PSP</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">C</td>\n				</tr>\n				<tr class=\"gradeU\">\n					<td>Other browsers</td>\n					<td>All others</td>\n					<td>-</td>\n					<td class=\"center\">-</td>\n					<td class=\"center\">U</td>\n				</tr>\n			</tbody>",
+			"text",
+			"\n#infoheader {\n	\n}",
+			"infowindo",
+			";\n",
+			"width",
+			"range",
+			"images",
+			"warning",
+			"btn-warnin",
+			"btn-warninf",
+			"primary",
+			"btn-prim",
+			"switch-smal",
+			"make-switch",
+			"navbar-",
+			";\n",
+			"span",
+			"collapse",
+			"fonts",
+			"fon",
+			"fo",
+			"font",
+			"fonts",
+			"usa",
+			"mumbai",
+			"london",
+			"socket.io",
+			"\n",
+			"_REQUEST",
+			";\n",
+			"animate",
+			"target",
+			"stats",
+			"params",
+			"lpv",
+			"                    '\".addslashes($data[11]).\"',\n                    '\".addslashes($data[12]).\"',\n                    '\".addslashes($data[13]).\"',",
+			"class=\"sr-only\"",
+			");\n",
+			".results",
+			"pro",
+			".results",
+			"results",
+			"						<div class=\"form-group\">\n							<label for=\"name\">Password</label>\n							<input type=\"text\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\">\n						</div>",
+			">\n",
+			"></",
+			"9",
+			"\">\n",
+			";\n",
+			"}\n",
+			">\n",
+			"content",
+			"<div class=\"col-md-3\">\n					<h3><a href=\"#\">$500 Gaming PC Build</a></h3>\n					<p>Cras varius dui sodales lacinia facilisis. Etiam ac erat id tortor gravida condimentum id vitae ligula. Mauris sagittis porttitor nunc. Duis posuere adipiscing augue, vitae egestas lectus blandit sit amet. </p>\n					<a href=\"#\" class=\"btn btn-default\">Read More</a>\n				</div>",
+			">\n",
+			"0",
+			"#loc {\n	position: absolute;\n	left: 12.5%;\n	width: 75%;\n	height: 30px;\n	background: #ddd;\n	border: 1px solid #444;\n}\n",
+			">\n",
+			"title",
+			"<title>",
+			"Pts",
+			"pr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../img",
+			"params[0]",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fresh start/index.html",
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fresh start/css/style.css",
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fresh start/js/script.js",
+					"settings":
+					{
+						"buffer_size": 4092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3643,
+								3643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": false
+}
