@@ -13,14 +13,14 @@ function init() {
 	document.body.appendChild( renderer.domElement );
 
 	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 3000 );
-	//camera.position.y = 80;
-	camera.position = new THREE.Vector3(1500,1000,1500);
+	camera.position.y = 80;
+	//camera.position = new THREE.Vector3(1500,1000,1500);
 
 
-	// controls = new THREE.FirstPersonControls( camera );
-	// controls.movementSpeed = 20;
-	// controls.lookSpeed = 0.05;
-	// controls.lookVertical = true;
+	controls = new THREE.FirstPersonControls( camera );
+	controls.movementSpeed = 20;
+	controls.lookSpeed = 0.05;
+	controls.lookVertical = true;
 
 	scene = new THREE.Scene();
 	scene.fog = new THREE.FogExp2( 0xd0e0f0, 0.00025 );
@@ -32,7 +32,7 @@ function init() {
 	var plane = new THREE.Mesh( new THREE.PlaneGeometry( 2000, 2000 ), new THREE.MeshBasicMaterial( { color: 0x101018 } ) );
 	plane.rotation.x = - 90 * Math.PI / 180;
 	scene.add(plane);
-	camera.lookAt(plane.position);
+	//camera.lookAt(plane.position);
 
 	var geometry = new THREE.CubeGeometry( 1, 1, 1 );
 	geometry.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0.5, 0 ) );
@@ -49,7 +49,7 @@ function init() {
 	var light = new THREE.Color( 0xffffff );
 	var shadow = new THREE.Color( 0x303050 );
 
-	for ( var i = 0; i < 1000; i ++ ) {
+	for ( var i = 0; i < 10000; i ++ ) {
 
 		var value = 1 - Math.random() * Math.random();
 		var color = new THREE.Color().setRGB( value + Math.random() * 0.1, value, value + Math.random() * 0.1 );
@@ -122,7 +122,7 @@ function generateTexture() {
 function animate() {
 	requestAnimationFrame( animate );
 	var time = performance.now() / 1000;
-	//controls.update( time - lastTime );
+	controls.update( time - lastTime );
 	renderer.render( scene, camera );
 	lastTime = time;
 }
